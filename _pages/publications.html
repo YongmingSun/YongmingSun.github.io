@@ -5,32 +5,56 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<p>This page lists journal articles and working papers. For Chinese-language publications and manuscripts, I provide an English translation, mark the entry explicitly, and include the original Chinese title.</p>
 
-{% include base_path %}
+<h2>Journal articles</h2>
+<ol class="bibliography">
+  <li><strong>[J.1]</strong> Xianhai Huang, Handi Wang, <strong>Yongming Sun</strong>, et al. (2023). <a href="https://doi.org/10.13653/j.cnki.jqte.20231018.002"><strong>Digital Technology and Firms' Export Quality Upgrading: Evidence from Machine Learning on Patent Texts</strong></a>. Original title: <span lang="zh-Hans">数字技术与企业出口质量升级——来自专利文本机器学习的证据</span>. <em>The Journal of Quantitative &amp; Technical Economics</em> / <span lang="zh-Hans">数量经济技术经济研究</span>, 40(12), 69&ndash;89. <strong>[Chinese-language publication]</strong></li>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+  <li><strong>[J.2]</strong> Mengtao Chen, Haojie Zhu, <strong>Yongming Sun</strong>, et al. (2023). <a href="https://doi.org/10.1057/s41599-023-02010-4"><strong>The impact of housing macroprudential policy on firm innovation: empirical evidence from China</strong></a>. <em>Humanities and Social Sciences Communications</em>, 10(1), 498.</li>
 
+  <li><strong>[J.3]</strong> Yiming Yuan, <strong>Yongming Sun</strong>, and Hangyu Chen. (2024). <a href="https://doi.org/10.1080/00036846.2024.2324090"><strong>Does artificial intelligence affect firms' inner wage gap?</strong></a>. <em>Applied Economics</em>, 1&ndash;7.</li>
 
+  <li><strong>[J.4]</strong> <strong>Yongming Sun</strong> and Mengtao Chen. (2024). <a href="https://doi.org/10.1080/00036846.2024.2369724"><strong>How do banks finance firm innovation: evidence from syndicated loans in China</strong></a>. <em>Applied Economics</em>, 1&ndash;17.</li>
 
+  <li><strong>[J.5]</strong> Alice Mason, <strong>Yongming Sun</strong>, Nick Simonsen, et al. (2024). <a href="https://doi.org/10.1016/j.cognition.2024.105895"><strong>Risky effort</strong></a>. <em>Cognition</em>, 251, 105895. <strong>[ABS 4 Journal]</strong></li>
+
+  <li><strong>[J.6]</strong> Xianhai Huang, <strong>Yongming Sun</strong>, and Mengtao Chen. (2024). <a href="https://doi.org/10.19581/j.cnki.ciejournal.2024.10.008"><strong>Enterprise Digital Transformation and Disruptive Technological Innovation: Micro Evidence from Patent Networks and the SBERT Model</strong></a>. Original title: <span lang="zh-Hans">企业数字化转型与颠覆性技术创新——来自专利网络与SBERT模型的微观证据</span>. <em>China Industrial Economics</em> / <span lang="zh-Hans">中国工业经济</span>, 10, 137&ndash;154. <strong>[Chinese-language publication]</strong></li>
+
+  <li><strong>[J.7]</strong> <strong>Yongming Sun</strong>, Yiming Yuan, et al. (2025). <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/rode.13221"><strong>Build or Break? The Impact of Rural E-commerce on Household Income Inequality in China</strong></a>. <em>Review of Development Economics</em>.</li>
+
+  <li><strong>[J.8]</strong> Mengtao Chen, <strong>Yongming Sun</strong>, et al. (2025). <a href="https://www.tandfonline.com/doi/full/10.1080/13504851.2025.2530151"><strong>Digital government and firm innovation: evidence from textual analysis of local government purchases in China</strong></a>. <em>Applied Economics Letters</em>.</li>
+
+  <li><strong>[J.9]</strong> Shuangzhi Yang and <strong>Yongming Sun</strong>. (2025). <a href="https://doi.org/10.1080/13504851.2025.2575818"><strong>The first-mover advantage in FinTech: evidence from the banking industry in China</strong></a>. <em>Applied Economics Letters</em>.</li>
+
+  <li><strong>[J.10]</strong> Lei Wang and <strong>Yongming Sun</strong>. (2025). <a href="https://www.sciencedirect.com/science/article/abs/pii/S0308596125001557"><strong>Digital dividends? Rural E-commerce policy and urban-rural income disparity in China</strong></a>. <em>Telecommunications Policy</em>.</li>
+
+  <li><strong>[J.11]</strong> <strong>Yongming Sun</strong>, Alice Mason, and Sebastian Olschewski. (2026). <a href="https://www.sciencedirect.com/science/article/pii/S0010028525000684"><strong>Compressed representations and attentional competition in numeric integration for average estimations</strong></a>. <em>Cognitive Psychology</em>.</li>
+
+  <li><strong>[J.12]</strong> Mengtao Chen and <strong>Yongming Sun</strong>. (2026). <a href="https://www.sciencedirect.com/science/article/pii/S0890838926000831"><strong>Strategic Opportunism or Risk Response? Customer Real Earnings Management Following Supplier Litigation</strong></a>. <em>The British Accounting Review</em>.</li>
+
+  <li><strong>[J.13]</strong> Mengtao Chen, <strong>Yongming Sun</strong>, and Wenwei Chen. (2026). <a href="https://link.cnki.net/urlid/11.1567.G3.20260306.0940.002"><strong>Mechanisms Through Which Artificial Intelligence Technological Innovation Drives Entrepreneurship: Evidence from Manufacturing</strong></a>. Original title: <span lang="zh-Hans">人工智能技术创新驱动创业的机制研究——来自制造业的证据</span>. <em>Science Research Management</em> / <span lang="zh-Hans">科研管理</span>, 1&ndash;22. Online first. <strong>[Chinese-language publication]</strong></li>
+</ol>
+
+<h2>Working papers</h2>
+<ol class="bibliography">
+  <li><strong>[W.1]</strong> Xianhai Huang, Yiming Yuan, and <strong>Yongming Sun</strong>. <strong>AI Technology Empowers Firms' Disruptive Innovation: A Global Patent Network Analysis Based on Machine Learning</strong>. Original title: <span lang="zh-Hans">人工智能技术赋能企业颠覆性创新的机理研究——基于机器学习的全球专利网络分析</span>. Final review at <em>Management World</em> / <span lang="zh-Hans">《管理世界》</span>. <strong>[Chinese-language manuscript]</strong></li>
+
+  <li><strong>[W.2]</strong> <strong>Yongming Sun</strong>, Zhiyuan Li, and Mengtao Chen. <strong>AI and the Reconstruction of Firm Task-Governance Boundaries: Evidence from Labor Outsourcing</strong>. Original title: <span lang="zh-Hans">人工智能与企业任务治理边界重构——来自劳务外包的证据</span>. Revision after external review at <em>The Journal of World Economy</em> / <span lang="zh-Hans">《世界经济》</span>. <strong>[Chinese-language manuscript]</strong></li>
+
+  <li><strong>[W.3]</strong> <strong>Yongming Sun</strong>, Yiming Yuan, Hangyu Chen, and Xianhai Huang. <strong>Supply Chain Risk and the Dual Margins of Firms' Labor Skills</strong>. Original title: <span lang="zh-Hans">供应链风险与企业劳动力技能二元边际</span>. Under external review at <em>Economic Research Journal</em> / <span lang="zh-Hans">《经济研究》</span>. <strong>[Chinese-language manuscript]</strong></li>
+
+  <li><strong>[W.4]</strong> Yiming Yuan, Xianhai Huang, and <strong>Yongming Sun</strong>. <strong>Industrial Digitalization and High-Quality Firm Development: A Consumer-Demand-Oriented Perspective</strong>. Original title: <span lang="zh-Hans">产业数字化与企业高质量发展——基于消费需求导向视角</span>. Initial review at <em>China Industrial Economics</em> / <span lang="zh-Hans">《中国工业经济》</span>. <strong>[Chinese-language manuscript]</strong></li>
+
+  <li><strong>[W.5]</strong> Mengtao Chen and <strong>Yongming Sun</strong>. <strong>Does digital government development impede firms' R&amp;D manipulation? Evidence from government procurement</strong>. 2nd R&amp;R at <em>Humanities and Social Sciences Communications</em>.</li>
+
+  <li><strong>[W.6]</strong> <strong>Yongming Sun</strong>, Yiming Yuan, Mengqin Pan, et al. <strong>Domestic demand and export: evidence from e-commerce and information consumption</strong>. 1st R&amp;R at <em>International Review of Economics &amp; Finance</em>.</li>
+
+  <li><strong>[W.7]</strong> Hangyu Chen, <strong>Yongming Sun</strong>, and Yiming Yuan. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5924344"><strong>Artificial Intelligence and Skills: Evidence from Contrastive Learning in Online Job Vacancies</strong></a>. Available at SSRN.</li>
+
+  <li><strong>[W.8]</strong> Mengtao Chen and <strong>Yongming Sun</strong>. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5051791"><strong>Does ESG divergence discourage firms from hoarding bad news? Evidence from crash risk</strong></a>. Available at SSRN.</li>
+
+  <li><strong>[W.9]</strong> Lei Wang, Yiming Yuan, <strong>Yongming Sun</strong>, et al. <a href="https://scholar.google.com/scholar?oi=bibs&amp;cluster=8461268338469892322&amp;btnI=1&amp;hl=en"><strong>Export Demand Shocks, Resource Allocation and Markups: Evidence from Chinese Multi-Product Firms</strong></a>. Available at SSRN.</li>
+
+  <li><strong>[W.10]</strong> <strong>Yongming Sun</strong>. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5169225"><strong>The Heterogeneity Impact of Geographical Proximity to Credit Resource on Firms' Market Performance</strong></a>. Available at SSRN.</li>
+</ol>
